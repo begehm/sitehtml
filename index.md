@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/begehm/sitehtml/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/begehm/sitehtml/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<meta charset="utf-8"/>
+<head>
+  <title>Empresa de Comunicação</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+  <body>
+    <div class="header">
+      <div class="linha">
+        <header>
+        <div class="coluna col4">
+          <h1 class="logo">Empresa de Comunicação</h1>
+        </div>
+        <div class="coluna col8">
+          <nav>
+            <ul class="menu inline sem-marcador">
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="clientes.html">Clientes</a></li>
+              <li> <a href="servicos.html">Serviços</a></li>
+              <li> <a href="sobre.html">Sobre</a></li>
+              <li> <a href="contato.html">Contato</a></li>
+          </ul>
+          </nav>
+    </div>
+      </header>
+    </div>
+    </body>
+  </head>
+  </div>
+  <div class="linha">
+    <section>
+      <div class="coluna col3 sidebar">
+        <h3>Clientes satisfeitos</h3>
+          <ul class="sem-marcador sem-padding">
+            <li> <a href="">Nome da Empresa 1</a> </li>
+            <li> <a href="">Nome da Empresa 2</a> </li>
+            <li> <a href="">Nome da Empresa 3</a> </li>
+            <li> <a href="">Nome da Empresa 4</a> </li>
+            <li> <a href="">Nome da Empresa 5</a> </li>
+            <li> <a href="">Nome da Empresa 6</a> </li>
+            <li> <a href="">Nome da Empresa 7</a> </li>
+           </ul> 
+           <a href="clientes.html" class="botao">Ver todos &raquo;</a>
+      </div>
+      <div class="coluna col9">
+        <h2>Última campanha:<em> Marca Empresa</em></h2>
+        <img src="img\design.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="clientes.html" class="botao">Ver outros trabalhos &raquo;</a>
+      </div>
+    </section>
+  </div>
+<div class="conteudo-extra">
+  <div class="linha">
+    <div class="coluna col7">
+      <section>
+        <h2>Como a assessoria de imprensa pode ajudar sua empresa?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+    </div>
+      <div class="coluna col5">
+      <h3>Últimas notícias</h3>
+      <ul class="sem-marcador sem-padding noticias">
+        <li>
+          <img src="img/redes.jpg" />
+          <h4>Título da notícia</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Leia mais &raquo;</a></p>
+        </li>
+        <li>
+          <img src="img/redes.jpg" />
+          <h4>Título da notícia</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Leia mais &raquo;</a></p>
+        </li>
+        <li>
+          <img src="img/redes.jpg" />
+          <h4>Título da notícia</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Leia mais &raquo;</a></p>
+        </li>
+      </ul>
+    </div>
+</div>
+<section>
+  <div class="footer">
+  <div class="linha">
+  <footer>
+    <div class="coluna col12">
+      <span>&copy;2020 Bettina Gehm</span>
+    </div>
+  </footer>    
+  </div>  
+</div>
+</section>   
+</body>
